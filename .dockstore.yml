@@ -1,0 +1,6 @@
+version: 1.2
+workflows:
+   - name: hello1
+     subclass: WDL
+     primaryDescriptorPath: /hello1.wdl
+     testParameterFiles:
